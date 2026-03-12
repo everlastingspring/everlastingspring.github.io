@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="32%" r="65%"><stop offset="0%" style="stop-color:#1c1c1c"/><stop offset="100%" style="stop-color:#0c0c0c"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22" result="big"/><feGaussianBlur stdDeviation="9" result="med"/><feMerge><feMergeNode in="big"/><feMergeNode in="med"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="bg2" x="-8%" y="-8%" width="116%" height="116%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+  <rect x="4" y="4" width="504" height="504" rx="109" ry="109" fill="none" stroke="#00e87a" stroke-width="3" opacity="0.4" filter="url(#bg2)"/>
+  <rect x="7" y="7" width="498" height="498" rx="106" ry="106" fill="none" stroke="#00e87a" stroke-width="1.2" opacity="0.2"/>
+  <text x="248" y="318" text-anchor="middle" font-family="'SF Pro Display','Helvetica Neue',Arial,sans-serif" font-size="268" font-weight="400" fill="#00e87a" filter="url(#glow)">P</text>
+  <rect width="512" height="512" rx="112" ry="112" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+</svg>
